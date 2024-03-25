@@ -5,11 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .cabeca{
             text-align: center;
+            font-family: "Tauri", sans-serif;
         }
         header{
-            
+            background-color: #dc143c;
+                font-family: "Tauri", sans-serif;
+                font-weight: 400;
+                height: 100px;
+                text-align: center;
+                color: #fff;
+        }
+        footer{
+            background-color: #dc143c;
+                font-family: "Tauri", sans-serif;
+                font-weight: 400;
+                height: 100px;
+                text-align: center;
+                color: #fff;
+                margin:auto;
+                bottom: 0;
+                position: fixed;
+                width: 100%;
+        }
+        footer ul{
+            display:flex;
+            gap: 100px;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+        }
+        .corpo{
+            font-family: "Tauri", sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+            text-align: center;
         }
     </style>
 </head>
@@ -21,7 +59,7 @@
     </header>
 
     <section>
-        <div>
+        <div class="corpo">
             <h2>Quem Somos: </h2>
             <P>Nós, na Vinícola Agnello, somos uma equipe dedicada, apaixonada por criar experiências sensoriais memoráveis através dos nossos vinhos. Fundada há mais de duas décadas por enólogos visionários, nossa vinícola tem suas raízes profundamente fincadas na rica tradição vitivinícola da região. Desde então, temos nos comprometido incansavelmente em produzir vinhos que refletem não apenas a qualidade de nossas uvas, mas também a dedicação artesanal e a expertise técnica que permeiam cada garrafa.</P>
             <h2>Sobre a Vinícola Agnello:</h2>
@@ -41,10 +79,12 @@
 
     <footer>
         <div>
-            <a href="index.html">Pagina Inicial</a>
-            <a href="compras.html">Compras</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="contato.html">Contato</a>
+        <ul>
+            <li><a href="index.html">Pagina Inicial</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
         </div>
     </footer>
 </body>
